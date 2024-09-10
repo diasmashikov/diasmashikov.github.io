@@ -28,8 +28,8 @@ a:hover {
   position: fixed;
   top: 0;
   left: 50%;
-  width: 1000px; /* Set the fixed width */
-  margin-left: -530px; /* Negative half of the width to center it */
+  width: 1000px;
+  margin-left: -530px;
   background-color: #ffffff;
   margin-top: 32px;
   padding: 8px 32px;
@@ -148,8 +148,8 @@ section dd {
 
 .three-col {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
-  gap: 16px; /* Adds space between each child */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
 }
 
 .card {
@@ -159,8 +159,8 @@ section dd {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the content horizontally */
-  gap: 16px; /* Add space between elements */
+  align-items: center;
+  gap: 16px;
 }
 
 /* FOOTER */
@@ -182,13 +182,12 @@ section dd {
 }
 
 /* CONTACT PAGE */
-/* Style for the one-col class */
 .one-col {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the form elements */
-  max-width: 600px; /* Set a maximum width for the form */
-  margin: 0 auto; /* Center the form horizontally */
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
   padding: 16px;
   border: 1px solid #e7e7e7;
   border-radius: 8px;
@@ -211,7 +210,7 @@ section dd {
   margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  box-sizing: border-box;
 }
 
 .one-col input[type="submit"] {
@@ -225,7 +224,7 @@ section dd {
 }
 
 .one-col input[type="submit"]:hover {
-  background-color: #b89b6d; /* Darken the button on hover */
+  background-color: #b89b6d;
 }
 
 #contact-section {
